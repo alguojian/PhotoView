@@ -13,12 +13,15 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.github.chrisbanes.photoview.sample;
+package com.github.sample;
 
 import android.graphics.Matrix;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -27,16 +30,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.github.chrisbanes.photoview.OnMatrixChangedListener;
-import com.github.chrisbanes.photoview.OnPhotoTapListener;
-import com.github.chrisbanes.photoview.OnSingleFlingListener;
-import com.github.chrisbanes.photoview.PhotoView;
+import com.github.photoview.OnMatrixChangedListener;
+import com.github.photoview.OnPhotoTapListener;
+import com.github.photoview.OnSingleFlingListener;
+import com.github.photoview.PhotoView;
 
 import java.util.Random;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.content.ContextCompat;
+
 
 public class SimpleSampleActivity extends AppCompatActivity {
 

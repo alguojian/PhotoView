@@ -1,9 +1,9 @@
-package com.github.chrisbanes.photoview.sample;
+package com.github.sample;
 
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Image adapter

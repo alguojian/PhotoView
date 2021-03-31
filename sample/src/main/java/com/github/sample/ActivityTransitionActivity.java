@@ -13,18 +13,19 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.github.chrisbanes.photoview.sample;
+package com.github.sample;
 
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.ActivityOptionsCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityOptionsCompat;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+
 
 public class ActivityTransitionActivity extends AppCompatActivity {
 

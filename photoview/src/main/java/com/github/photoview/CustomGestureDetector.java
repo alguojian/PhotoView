@@ -13,7 +13,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.github.chrisbanes.photoview;
+package com.github.photoview;
 
 import android.content.Context;
 import android.view.MotionEvent;
@@ -193,7 +193,7 @@ class CustomGestureDetector {
                 }
                 break;
             case MotionEvent.ACTION_POINTER_UP:
-                final int pointerIndex = Util.getPointerIndex(ev.getAction());
+                final int pointerIndex = PhotoViewUtils.getPointerIndex(ev.getAction());
                 final int pointerId = ev.getPointerId(pointerIndex);
                 if (pointerId == mActivePointerId) {
                     // This was our active pointer going up. Choose a new

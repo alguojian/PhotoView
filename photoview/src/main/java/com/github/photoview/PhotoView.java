@@ -13,17 +13,17 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.github.chrisbanes.photoview;
+package com.github.photoview;
 
 import android.content.Context;
 import android.graphics.Matrix;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.view.GestureDetector;
 
-import androidx.appcompat.widget.AppCompatImageView;
 
 /**
  * A zoomable ImageView. See {@link PhotoViewAttacher} for most of the details on how the zooming

@@ -1,9 +1,9 @@
-package com.github.chrisbanes.photoview;
+package com.github.photoview;
 
 import android.view.MotionEvent;
 import android.widget.ImageView;
 
-class Util {
+public class PhotoViewUtils {
 
     static void checkZoomLevels(float minZoom, float midZoom,
                                 float maxZoom) {

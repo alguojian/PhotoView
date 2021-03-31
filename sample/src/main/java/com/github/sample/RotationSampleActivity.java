@@ -13,16 +13,16 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.github.chrisbanes.photoview.sample;
+package com.github.sample;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import com.github.chrisbanes.photoview.PhotoView;
+import com.github.photoview.PhotoView;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 public class RotationSampleActivity extends AppCompatActivity {
 

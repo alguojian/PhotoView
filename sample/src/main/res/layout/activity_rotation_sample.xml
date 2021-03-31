@@ -1,25 +1,25 @@
-<androidx.coordinatorlayout.widget.CoordinatorLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <androidx.appcompat.widget.Toolbar
+        <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"/>
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </android.support.design.widget.AppBarLayout>
 
-    <com.github.chrisbanes.photoview.PhotoView
+    <com.github.photoview.PhotoView
         android:id="@+id/iv_photo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/wallpaper"/>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.github.chrisbanes.photoview.sample">
+    package="com.github.sample">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -27,8 +27,6 @@
         <activity android:name=".RotationSampleActivity" />
 
         <activity android:name=".PicassoSampleActivity" />
-
-        <activity android:name=".CoilSampleActivity" />
 
         <activity android:name=".ActivityTransitionActivity" />
 
